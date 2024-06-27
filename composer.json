@@ -57,7 +57,7 @@
   },
   "extra": {
     "hyperf": {
-      "config": "Ella123\\HyperfCaptcha\\ConfigProvider"
+      "config": "itjackjw\\HyperfCaptcha\\ConfigProvider"
     }
   }
 }
