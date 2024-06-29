@@ -276,7 +276,7 @@ class CaptchaService implements CaptchaInterface
      * 验证图片验证码
      * @throws InvalidArgumentException
      */
-    public function verify(string $code, string $key): bool
+    public function verify(string $key, string $code): bool
     {
         // 是否 启用验证
         if (!$this->config->get('captcha.enable', true)) {
